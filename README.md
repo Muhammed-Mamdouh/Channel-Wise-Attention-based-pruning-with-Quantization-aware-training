@@ -21,11 +21,17 @@ This project explores attention-based channel-wise pruning combined with QAT to 
 
 ## Repository Structure
 
-- `??/`: Contains source code for the attention-based channel-wise pruning and QAT implementation.
+.
+├── main.ipynb                 # Main notebook for running experiments, training models and results analysis.
+├── prune_Q
+│   ├── load_data.py           # Code for loading the CIFAR-10 dataset.
+│   ├── quant_utils.py         # Code for implementing quantization and dequantization.
+│   ├── custom_modules.py      # Code for implementing custom quantized attention-based Conv2d and Linear modules.
+│   └── resnet.py              # Code for building the ResNet32 network using custom modules.
+└── Saved
+    ├── Training_logs          # Folder for storing training logs.
+    └── Final_model            # Folder for storing the final saved model.
 
-- `data/`: Dataset files or references (e.g., CIFAR-10) used in the experiments.
-
-- `results/`: Saved model weights, training logs, and evaluation metrics.
 
 ## Usage
 
@@ -36,14 +42,11 @@ To run the training and evaluation scripts:
    git clone https://github.com/Muhammed-Mamdouh/Channel-Wise-Attention-based-pruning-with-Quantization-aware-training.git
    ```
 
-2. Set up the environment with the required dependencies (Python, PyTorch, etc.).
+2. Set up the environment with the required dependencies specified in the requirements file (Python, PyTorch, etc.).
 
-3. Navigate to the `src/` directory and execute the training script:
-   ```bash
-   python train.py --dataset cifar10 --epochs 50 --batch-size 128
-   ```
+3. Navigate to the `main.ipynb` directory and specify the training parameters in the `training` section.
 
-4. View the experiment results in the Jupyter notebooks provided in the `notebooks/` directory.
+4. View the experiment results in the Jupyter notebooks provided in the `results` section.
 
 ## Results and Analysis
 
