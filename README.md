@@ -21,6 +21,7 @@ This project explores attention-based channel-wise pruning combined with QAT to 
 
 ## Repository Structure
 
+<pre>
 .
 ├── main.ipynb                 # Main notebook for running experiments, training models and results analysis.
 ├── prune_Q
@@ -31,6 +32,8 @@ This project explores attention-based channel-wise pruning combined with QAT to 
 └── Saved
     ├── Training_logs          # Folder for storing training logs.
     └── Final_model            # Folder for storing the final saved model.
+</pre>
+
 
 
 ## Usage
