@@ -48,9 +48,9 @@ To run the training and evaluation scripts:
 
 2. Set up the environment with the required dependencies specified in the requirements file (Python, PyTorch, etc.).
 
-3. Navigate to the `main.ipynb` directory and specify the training parameters in the `training` section.
+3. Navigate to the `main.ipynb` directory and specify the training parameters in the [`training`](https://nbviewer.org/github/Muhammed-Mamdouh/Channel-Wise-Attention-based-pruning-with-Quantization-aware-training/blob/master/main.ipynb#Training) section.
 
-4. View the experiment results in the Jupyter notebooks provided in the `results` section.
+4. View the experiment results in the Jupyter notebooks provided in the [`results`](https://nbviewer.org/github/Muhammed-Mamdouh/Channel-Wise-Attention-based-pruning-with-Quantization-aware-training/blob/master/main.ipynb#Results-Analysis) section.
 
 ## Results and Analysis
 
