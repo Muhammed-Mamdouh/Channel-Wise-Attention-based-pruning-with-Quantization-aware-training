@@ -23,6 +23,7 @@ This project explores attention-based channel-wise pruning combined with QAT to 
 
 <pre>
 .
+├── ELE6310E_final_report.pdf	# Full Description of the project
 ├── main.ipynb                 # Main notebook for running experiments, training models and results analysis.
 ├── prune_Q
 │   ├── load_data.py           # Code for loading the CIFAR-10 dataset.
